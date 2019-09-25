@@ -1,0 +1,69 @@
+@import '../settings/settings.global';
+
+
+.c-calendar__event{
+    margin:2em;
+    width:20%;
+    background-color: $ultra-white;
+    border-radius:10px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.c-calendar__event p,h2,h3{
+    text-align:left;
+    padding-left:1em;
+}
+.c-calendar-event__title{
+    color: $primary-color;
+    margin-left:0em;
+    padding-left:.5em;
+    margin:.5em 0 .5em 0;
+}
+.c-calendar-event__description{
+    font-size:0.9em;
+    margin:0 1em 2em 0;
+    padding:.5em 0;
+}
+.c-calendar-event__period{
+    margin:.5em 0;
+    padding:0 1em 0;
+    color:$primary-color;
+    font-weight:700;
+}
+.c-calendar-event__date{
+    font-weight:300;
+}
+@media only screen and (max-width: 1200px ) {
+    .c-calendar__event{
+        width:25%;
+    }
+
+}
+@media only screen and (max-width: 980px ) {
+    .c-calendar__event{
+        width:30%;
+    }
+
+}
+@media only screen and (max-width: 760px ) {
+    .c-calendar__event{
+        width:45%;
+        justify-content:center;
+    }
+
+}
+@media only screen and (max-width: 520px ) {
+    .c-calendar__event{
+        width:80%;
+        justify-content:center;
+    }
+
+}
+@media only screen and (max-width: 480px ) {
+    .c-calendar__event{
+        width:85%;
+        justify-content:center;
+    }
+
+}
